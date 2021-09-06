@@ -1,0 +1,165 @@
+.iphone-hero-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    // background: black;
+    overflow-x: hidden;
+
+    .hero-titles {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        top: 70px;
+        opacity: 1;
+        background-color: transparent;
+        animation-name: title-card-fade;
+        animation-duration: 2s;
+        animation-delay: 2s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+
+        .hero-title {
+            font-size: 20px;
+            opacity: .9;
+            background-color: transparent;
+        }
+    
+        .hero-title-big {
+            font-size: 4.7rem;
+            background-color: transparent;
+        }   
+    }
+
+    .big {
+        width: 100%;
+        height: 100%;
+        margin-left: 30%;
+        pointer-events: none;
+    }
+    .small {
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+    }
+
+    .small {
+        display: none;
+    }
+
+    @keyframes title-card-fade {
+        0% {
+            opacity: 0;
+        }
+        25% {
+            opacity: .3;
+        }
+        50% {
+            opacity: .5;
+        }
+        75% {
+            opacity: .7;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .iphone12-details {
+        margin: 17% 26% 5% 26%;
+        color: #a1a1a6;
+
+        h4 {
+            text-align: center;
+            font-size: 25px;
+        }
+    }
+
+    .iphone12-price {
+        margin: 0;
+        color: #a1a1a6;
+        margin-bottom: 10px;
+
+        h4 {
+            text-align: center;
+            font-size: 22px;
+        }
+    }
+
+    .big {
+        display: block;
+    }
+
+    .small {
+        display: none;
+    }
+
+    
+}
+
+@media only screen and (max-width:425px) {
+    .iphone-hero-container {
+        .hero-titles {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+            top: 70px;
+            opacity: 1;
+            background-color: transparent;
+            // animation-name: title-card-fade;
+            animation-duration: 2s;
+            animation-delay: 2s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: 1;
+    
+            .hero-title {
+                font-size: 16px;
+                opacity: .9;
+                background-color: transparent;
+            }
+        
+            .hero-title-big {
+                font-size: 3rem;
+                background-color: transparent;
+            }   
+        }
+
+        .big {
+            display: none;
+        }
+    
+        .small {
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            display: block;
+            margin: 20% 0px;
+        }
+
+        .iphone12-details {
+            margin: 5% 5% ;
+            color: #a1a1a6;
+    
+            h4 {
+                text-align: start;
+                font-size: 22px;
+            }
+        }
+    
+        .iphone12-price {
+            margin: 0;
+            color: #a1a1a6;
+    
+            h4 {
+                text-align: start;
+                font-size: 20px;
+            }
+        }
+
+        
+    }
+}

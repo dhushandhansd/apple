@@ -1,0 +1,474 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+.navbar-container {
+  width: 100%;
+  height: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #000;
+}
+
+.navbar-container .navbar-list {
+  list-style-type: none;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-container .navbar-list .burger-container {
+  display: none;
+}
+
+.navbar-container .navbar-list .logo {
+  width: 44px;
+  height: 44px;
+  padding-top: 4px;
+}
+
+.navbar-container .navbar-list li {
+  list-style-type: none;
+  padding: 0 32px;
+}
+
+.navbar-container .navbar-list li a {
+  font-size: 16px;
+  color: #f5f5f783;
+  text-decoration: none;
+}
+
+.navbar-container .navbar-list li a:hover {
+  color: #fff;
+}
+
+.navbar-container .navbar-icons {
+  width: 18px;
+  height: 88px;
+}
+
+.navbar-container .navbar-icons-search {
+  padding-top: 50px;
+}
+
+.navbar-container .navbar-icons-bag {
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navbar-container .navbar-list {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: transparent;
+  }
+  .navbar-container .navbar-list .burger-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .store-link, .mac-link, .ipad-link, .iphone-link, .watch-link, .tv-link, .music-link, .support-link, .search-icon {
+    display: none;
+  }
+}
+
+.page-header-container {
+  width: 100%;
+  height: 52px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(0, 0, 0, 0.274);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+}
+
+.page-header-container .page-name {
+  margin-right: 25%;
+  background-color: transparent;
+}
+
+.page-header-container .page-name h3 {
+  font-size: 24px;
+  color: white;
+  opacity: 0.9;
+  cursor: pointer;
+  background-color: transparent;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.page-header-container .page-actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: white;
+  background-color: transparent;
+}
+
+.page-header-container .page-actions .more-arrow {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+  display: none;
+  background-color: transparent;
+}
+
+.page-header-container .page-actions .more-arrow img {
+  background-color: transparent;
+}
+
+.page-header-container .page-actions .more-arrow:hover {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.page-header-container .page-actions .overview,
+.page-header-container .page-actions .tech-specs {
+  font-size: 14px;
+  margin-right: 20px;
+  color: white;
+  cursor: pointer;
+  padding-top: 3px;
+  background: transparent;
+}
+
+.page-header-container .page-actions .overview p,
+.page-header-container .page-actions .tech-specs p {
+  background-color: transparent;
+}
+
+.page-header-container .page-actions .white-shade {
+  opacity: 0.52;
+  cursor: default;
+  background: transparent;
+}
+
+.page-header-container .page-actions .tech-specs p:hover {
+  color: #0071e3;
+}
+
+.page-header-container .page-actions .buy {
+  font-size: 14px;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0071e3;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 45px;
+  height: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  .page-header-container .page-actions .more-arrow {
+    display: block;
+  }
+  .page-header-container .page-actions .overview,
+  .page-header-container .page-actions .tech-specs {
+    display: none;
+  }
+}
+
+.iphone-hero-container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  overflow-x: hidden;
+}
+
+.iphone-hero-container .hero-titles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  top: 70px;
+  opacity: 1;
+  background-color: transparent;
+  -webkit-animation-name: title-card-fade;
+          animation-name: title-card-fade;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.iphone-hero-container .hero-titles .hero-title {
+  font-size: 20px;
+  opacity: .9;
+  background-color: transparent;
+}
+
+.iphone-hero-container .hero-titles .hero-title-big {
+  font-size: 4.7rem;
+  background-color: transparent;
+}
+
+.iphone-hero-container .big {
+  width: 100%;
+  height: 100%;
+  margin-left: 30%;
+  pointer-events: none;
+}
+
+.iphone-hero-container .small {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.iphone-hero-container .small {
+  display: none;
+}
+
+@-webkit-keyframes title-card-fade {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: .3;
+  }
+  50% {
+    opacity: .5;
+  }
+  75% {
+    opacity: .7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes title-card-fade {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: .3;
+  }
+  50% {
+    opacity: .5;
+  }
+  75% {
+    opacity: .7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.iphone-hero-container .iphone12-details {
+  margin: 17% 26% 5% 26%;
+  color: #a1a1a6;
+}
+
+.iphone-hero-container .iphone12-details h4 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.iphone-hero-container .iphone12-price {
+  margin: 0;
+  color: #a1a1a6;
+  margin-bottom: 10px;
+}
+
+.iphone-hero-container .iphone12-price h4 {
+  text-align: center;
+  font-size: 22px;
+}
+
+.iphone-hero-container .big {
+  display: block;
+}
+
+.iphone-hero-container .small {
+  display: none;
+}
+
+@media only screen and (max-width: 425px) {
+  .iphone-hero-container .hero-titles {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    top: 70px;
+    opacity: 1;
+    background-color: transparent;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+  }
+  .iphone-hero-container .hero-titles .hero-title {
+    font-size: 16px;
+    opacity: .9;
+    background-color: transparent;
+  }
+  .iphone-hero-container .hero-titles .hero-title-big {
+    font-size: 3rem;
+    background-color: transparent;
+  }
+  .iphone-hero-container .big {
+    display: none;
+  }
+  .iphone-hero-container .small {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    display: block;
+    margin: 20% 0px;
+  }
+  .iphone-hero-container .iphone12-details {
+    margin: 5% 5%;
+    color: #a1a1a6;
+  }
+  .iphone-hero-container .iphone12-details h4 {
+    text-align: start;
+    font-size: 22px;
+  }
+  .iphone-hero-container .iphone12-price {
+    margin: 0;
+    color: #a1a1a6;
+  }
+  .iphone-hero-container .iphone12-price h4 {
+    text-align: start;
+    font-size: 20px;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #000;
+}
+
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.burger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  outline: none;
+  height: 20px;
+  width: 15px;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  -webkit-transition: all 250ms ease-out;
+  transition: all 250ms ease-out;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.burger::before, .burger::after {
+  content: '';
+  width: 15px;
+  height: 2px;
+  position: absolute;
+  background: white;
+  -webkit-transition: all 250ms ease-out;
+  transition: all 250ms ease-out;
+  will-change: transform;
+}
+
+.burger::before {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+}
+
+.burger:after {
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+}
+
+.active.burger:before {
+  -webkit-transform: translateY(0) rotate(45deg);
+          transform: translateY(0) rotate(45deg);
+}
+
+.active.burger:after {
+  -webkit-transform: translateY(0) rotate(-45deg);
+          transform: translateY(0) rotate(-45deg);
+}
+/*# sourceMappingURL=main.css.map */
