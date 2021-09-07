@@ -559,8 +559,357 @@
 .ar-container .ar-desc {
   font-size: 21px;
   text-align: center;
-  margin: 5% 27% 10% 27%;
+  margin: 10% 27% 7% 27%;
   color: #a1a1a6;
+}
+
+.ar-container .line-div {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 600px;
+  height: 2px;
+  border-bottom: 2px solid #036182;
+}
+
+.ar-container .ar-more {
+  font-size: 32px;
+  line-height: 1.125;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  background-image: linear-gradient(45deg, #036182, #5eb3ca);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.ar-container .find-more {
+  width: 133px;
+  height: 36px;
+  background-color: #000;
+  color: white;
+  font-weight: 500;
+  border: 1.5px solid #036182;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 35px 0px;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+.ar-container .find-more:hover {
+  background-color: white;
+  color: black;
+  border: 1.5px solid #036182;
+}
+
+.footer-container {
+  width: 100%;
+  background-color: #111;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-container .other-iphone-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 650px;
+  background-color: #111;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.footer-container .other-iphone-container .footer-title {
+  font-size: 54px;
+  color: white;
+  background-color: #111;
+}
+
+.footer-container .options-iphone-container {
+  width: 100%;
+  background-color: #111;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 7%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footer-container .options-iphone-container .trade-container {
+  width: 400px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #111;
+}
+
+.footer-container .options-iphone-container .trade-container .trade-title h2 {
+  font-size: 30px;
+  color: white;
+  background-color: #111;
+}
+
+.footer-container .options-iphone-container .trade-container .trade-desc {
+  background-color: #111;
+  width: 350px;
+  line-height: 1.5;
+}
+
+.footer-container .options-iphone-container .trade-container .trade-desc p {
+  background-color: #111;
+  font-size: 17px;
+  padding-top: 10px;
+  color: #a1a1a6;
+}
+
+.footer-container .options-iphone-container .trade-container .trade-action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #111;
+  margin-top: 5%;
+}
+
+.footer-container .options-iphone-container .trade-container .trade-action p {
+  background-color: #111;
+}
+
+.footer-container .options-iphone-container .trade-container .trade-action p a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #2997ff;
+  background-color: #111;
+}
+
+.footer-container .options-iphone-container .trade-container .trade-action p a:hover {
+  text-decoration: underline;
+}
+
+.footer-container .options-iphone-container .trade-container .trade-action svg {
+  padding-top: 3px;
+  padding-left: 5px;
+  width: 12px;
+  height: 12px;
+  background-color: #111;
+}
+
+.footer-container .options-iphone-container .upgrade-iphone {
+  width: 450px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #111;
+}
+
+.footer-container .options-iphone-container .upgrade-iphone .upgrade-title h2 {
+  font-size: 30px;
+  color: white;
+  background-color: #111;
+}
+
+.footer-container .options-iphone-container .upgrade-iphone .upgrade-desc {
+  background-color: #111;
+  width: 350px;
+  line-height: 1.5;
+}
+
+.footer-container .options-iphone-container .upgrade-iphone .upgrade-desc p {
+  background-color: #111;
+  font-size: 17px;
+  padding-top: 10px;
+  color: #a1a1a6;
+}
+
+.footer-container .options-iphone-container .upgrade-iphone .upgrade-action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #111;
+  margin-top: 5%;
+}
+
+.footer-container .options-iphone-container .upgrade-iphone .upgrade-action p {
+  background-color: #111;
+}
+
+.footer-container .options-iphone-container .upgrade-iphone .upgrade-action p a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #2997ff;
+  background-color: #111;
+}
+
+.footer-container .options-iphone-container .upgrade-iphone .upgrade-action p a:hover {
+  text-decoration: underline;
+}
+
+.footer-container .options-iphone-container .upgrade-iphone .upgrade-action svg {
+  padding-top: 3px;
+  padding-left: 5px;
+  width: 12px;
+  height: 12px;
+  background-color: #111;
+}
+
+.footer-container .question-container {
+  width: 100%;
+  background-color: #111;
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-container .question-container .question {
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #111;
+}
+
+.footer-container .question-container .question h2 {
+  font-size: 32px;
+  color: white;
+  background-color: #111;
+}
+
+.footer-container .question-container .question-desc {
+  width: 400px;
+  background-color: #111;
+  text-align: center;
+  margin-top: 5%;
+  line-height: 1.5;
+}
+
+.footer-container .question-container .question-desc p {
+  font-size: 17px;
+  color: #a1a1a6;
+  background-color: #111;
+}
+
+.footer-container .question-container .question-action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 400px;
+  background-color: #111;
+  padding-top: 5%;
+}
+
+.footer-container .question-container .question-action p {
+  font-size: 17px;
+  background-color: #111;
+  color: #2997ff;
+}
+
+.footer-container .question-container .question-action svg {
+  width: 12px;
+  height: 12px;
+  padding-left: 7px;
+  background-color: #111;
+}
+
+.footer-container .seperator {
+  width: 70%;
+  height: 5px;
+  margin: 7%;
+  background-color: #111;
+  border-bottom: .5px solid  #a1a1a663;
 }
 
 * {

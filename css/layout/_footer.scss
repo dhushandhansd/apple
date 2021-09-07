@@ -1,0 +1,225 @@
+.footer-container {
+    width: 100%;
+    // background-color: #161617;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .other-iphone-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 650px;
+        background-color: #111;
+        text-align: center;
+        margin-top: 10%;
+
+        .footer-title {
+            font-size: 54px;
+            color: white;
+            background-color: #111;
+        }
+    }
+
+    .options-iphone-container {
+        width: 100%;
+        background-color: #111;
+        display: flex;
+        flex-direction: row;
+        margin-top: 7%;
+        justify-content: space-evenly;
+
+        .trade-container {
+            width: 400px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #111;
+
+            .trade-title h2 {
+                font-size: 30px;
+                color: white;
+                background-color: #111;
+            }
+
+            .trade-desc {
+                background-color: #111;
+                width: 350px;
+                line-height: 1.5;
+                p {
+                    background-color: #111;
+                    font-size: 17px;
+                    padding-top: 10px;
+                    color: #a1a1a6;
+                }    
+            }
+
+            .trade-action {
+                display: flex;
+                flex-direction: row;
+                background-color: #111;
+                margin-top: 5%;
+
+                p {
+                    background-color: #111;  
+                    a {
+                        font-size: 16px;
+                        text-decoration: none;
+                        color:#2997ff ;
+                        background-color: #111;  
+                    }
+
+                    a:hover {
+                        text-decoration: underline;
+                    }
+                }
+
+                svg {
+                    padding-top: 3px;
+                    padding-left: 5px;
+                    width: 12px;
+                    height: 12px;
+                    background-color: #111;
+                }
+            }
+            
+            
+        }
+
+        .upgrade-iphone {
+            width: 450px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #111;
+
+
+            .upgrade-title h2 {
+                font-size: 30px;
+                color: white;
+                background-color: #111;
+            }
+
+
+            .upgrade-desc {
+                background-color: #111;
+                width: 350px;
+                line-height: 1.5;
+
+                p {
+                    background-color: #111;
+                    font-size: 17px;
+                    padding-top: 10px;
+                    color: #a1a1a6;
+                }
+            }
+
+            .upgrade-action {
+                display: flex;
+                flex-direction: row;
+                background-color: #111;
+                margin-top: 5%;
+
+                p {
+                    background-color: #111;
+
+                    a {
+                        font-size: 16px;
+                        text-decoration: none;
+                        color:#2997ff ;
+                        background-color: #111;  
+                    }
+                    
+                    a:hover {
+                        text-decoration: underline;
+                    }
+                }
+
+                svg {
+                    padding-top: 3px;
+                    padding-left: 5px;
+                    width: 12px;
+                    height: 12px;
+                    background-color: #111;
+                }
+            }
+        }
+    }
+
+    .question-container {
+        width: 100%;
+        background-color: #111;
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .question {
+            width: 350px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #111;
+
+            h2 {
+                font-size: 32px;
+                color: white;
+                background-color: #111;
+            }
+        }
+
+        .question-desc {
+            width: 400px;
+            background-color: #111;
+            text-align: center;
+            margin-top: 5%;
+            line-height: 1.5;
+
+            p {
+                font-size: 17px;
+                color: #a1a1a6;
+                background-color: #111;
+            }
+        }
+
+        .question-action {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            width: 400px;
+            background-color: #111;
+            padding-top: 5%;
+
+            p {
+                font-size: 17px;
+                background-color: #111;
+                color: #2997ff;
+            }
+
+            svg {
+                width: 12px;
+                height: 12px;
+                padding-left: 7px;
+                background-color: #111;
+            }
+        }
+    }
+
+    .seperator {
+        width: 70%;
+        height: 5px;
+        margin: 7%;
+        background-color: #111;
+        border-bottom: .5px solid  #a1a1a663;
+    }
+
+}
