@@ -9,6 +9,9 @@
  - Gaussian Blur
  - iPhone Video Responsive 
  - iPhone Text Responsive
+ - Comparison Section with Videos and more
+ - AR Section 
+ - Footer
 
 ## UI Design
 ![Apple UI](https://github.com/dhushandhansd/apple/blob/master/apple-design.png)
@@ -18,6 +21,7 @@ Pull requests are welcomed and incase of an error raise an issue, we are happy t
 
 ## Bug Fixed
 > No Bugs for now.
+> Bag and Search Icon Bug Fixed
 
 ## Live App
 https://dhushandhansd.github.io/apple/
