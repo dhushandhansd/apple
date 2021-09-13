@@ -62,11 +62,16 @@
         .navbar-list {
             width: 100%;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             background-color: transparent;
 
             .burger-container {
                 display: flex;
+            }
+
+            .bag-icon{
+                padding-bottom: 5px;
+                padding-right: 15px;
             }
         }
     }

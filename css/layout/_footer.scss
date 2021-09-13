@@ -1,6 +1,5 @@
 .footer-container {
     width: 100%;
-    // background-color: #161617;
     background-color: #111;
     display: flex;
     align-items: center;
@@ -269,4 +268,113 @@
         }
     }
 
+}
+
+@media only screen and (max-width:425px) {
+    .footer-container {
+        .other-link-container {
+            display: none;
+        }
+
+        .other-iphone-container {
+            width: 100%;
+        }
+
+        .options-iphone-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            .upgrade-iphone {
+                margin-top: 10px;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .footer-container {
+        .options-iphone-container {
+            width: 100%;
+    
+            .trade-container {
+                width: 100%;
+    
+                .trade-title h2 {
+                    font-size: 20px;
+                }
+
+                .trade-desc {
+                    width: 100%;
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .upgrade-iphone {
+                width: 100%;
+
+                .upgrade-title h2{
+                    font-size: 20px;
+                }
+
+                .upgrade-desc {
+                    width: 100%;
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+        .question-container {
+            width: 100%;
+
+            .question {
+                width: 100%;
+            }
+
+            .question-desc {
+                width: 100%;
+            }
+
+            .question-action {
+                width: 100%;
+
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:375px){
+    .footer-container {
+        .question-container {
+            .question-desc {
+                width: 100%;
+            }
+
+            .question-action {
+                width: 100%;
+            }
+        }
+
+        .options-iphone-container {
+            .trade-container {
+                width: 100%;
+    
+                .trade-title {
+                    width: 100%;
+                }
+
+                .trade-desc {
+                    width: 100%;
+                }
+            }
+        }
+    }
 }

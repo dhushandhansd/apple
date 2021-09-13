@@ -23,18 +23,27 @@
 
     }
 
-    .gradient-overlay {
-        position: fixed;
-        // top: 0;
-        left: 0;
+    .video-container {
+
         width: 100%;
-        height: 100px;
-        box-shadow: 0 5px 200px rgba(0,0,0,0.9) inset;
+    
+        video {
+            width: 100%;
+            z-index: 1;
+        }
+
+        // .gradient-overlay {
+        //     position: absolute;
+        //     top: 20%;
+        //     left: 0;
+        //     width: 100%;
+        //     height: 60%;
+        //     box-shadow: inset 0px 0px 36px 36px rgba(0,0,0,0.75);
+        //     // box-shadow: inset 3px 3px 10px 0 #000000;
+        // }
     }
 
-    video {
-        width: 100%;
-    }
+    
 
     .ar-desc {
         font-size: 21px;
@@ -92,4 +101,80 @@
         border: 1.5px solid #036182;
     }
 
+}
+
+@media only screen and (max-width:768px) {
+    .ar-container {
+        width: 100%;
+        margin-top: 20%;
+
+        .ar-title {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        video {
+            margin-top: 5%;
+            width: 100vw;
+            object-fit: fit;
+        }
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .ar-container {
+        width: 100%;
+        margin-top: 20%;
+
+        .ar-title {
+            width: 100%;
+            text-align: start;
+            align-items: center;
+            margin-left: 0;
+            font-size: 3em;
+
+            h3 {
+                font-size: 1em;
+                word-break: break-all;
+            }
+
+            h5 {
+                word-break: break-all;
+            }
+        }
+
+        video {
+            margin-top: 5%;
+            width: 100%;
+        }
+
+        .ar-desc {
+            font-size: 21px;
+            text-align: center;
+            margin: 10% 7% 7% 7%;
+            color: #a1a1a6;
+        }
+
+        .line-div {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            width: 100%;
+            height: 2px;
+            border-bottom: 2px solid #036182;
+        }
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .ar-container {
+        .ar-title {
+            h3 {
+                font-size: .9em;
+            }
+
+            h4 {
+                font-size: .9em;
+            }
+        }
+    }
 }

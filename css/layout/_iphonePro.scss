@@ -5,7 +5,6 @@
   margin: 10%;
 
   .iphone-pro-section {
-    // width: 100%;
     margin-top: 5%;
     display: flex;
     justify-content: center;
@@ -71,4 +70,71 @@
     //#a1a1a6
 
   }
+}
+
+@media only screen and (max-width:768px) {
+    .iphone-pro-container {
+        margin: 0;
+        width: 100vw;
+
+        .iphone-pro-section{
+            display: flex;
+            flex-direction: column;
+
+            video {
+                width: 236px;
+                height: 466px;
+            }
+
+            .pro-screen-size {
+                width: 100%;
+                margin: 0;
+                height: 100px;
+                display: flex;
+                justify-content: space-evenly;
+                
+                background-color: transparent;
+
+                .pro-max {
+                    background-color: transparent;
+
+                    h3,h5 {
+                        background-color: transparent;
+                    }
+                }
+
+                .pro {
+                    background-color: transparent;
+
+                    h3,h5 {
+                        background-color: transparent;
+                    }
+                }
+            }
+
+            .compare-btn {
+                width: 100%;
+                height: 40px;
+                border: 1px solid white;
+                border-radius: 15px;
+                padding: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-size: 18px;
+                white-space: normal;
+                line-height: 1.17;
+                margin-top: 15%;
+                transition: all .3s ease-in;
+                cursor: pointer;
+            }
+        
+            .compare-btn:hover {
+                background-color: white;
+                color: black;
+                
+            }
+        }
+    }
 }
