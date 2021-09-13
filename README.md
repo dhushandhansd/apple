@@ -12,6 +12,11 @@
  - Comparison Section with Videos and more
  - AR Section 
  - Footer
+    - Delivery, Cashback, Help and Personal Box 
+    - Breadcrumb
+    - Options and Links
+    - Call Link
+    - Copyrights
 
 ## UI Design
 ![Apple UI](https://github.com/dhushandhansd/apple/blob/master/apple-design.png)
