@@ -214,12 +214,59 @@
         }
     }
 
-    .seperator {
+    .other-link-container{
         width: 70%;
-        height: 5px;
-        margin: 7%;
-        background-color: #111;
-        border-bottom: .5px solid  #a1a1a663;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+
+        .column {
+            width: 180px;
+            background-color: transparent;
+            color: rgba(255, 255, 255, 0.459);
+            // opacity: .52;
+            font-size: 12.5px;
+            line-height: 2;
+            margin-right: 20px;
+
+            .topic-title {
+                font-size: 13px;
+                font-weight: 600;
+                color: white;
+            }
+
+            .sub-list {
+                margin-top: 10px;
+            }
+
+            ul{
+                list-style-type: none;
+                list-style: none;
+                background-color: transparent;
+                li{
+                    background-color: transparent;
+
+                }
+            }
+        }
+    }
+
+    .more-shop-link-container {
+        margin-top: 20px;
+        width: 70%;
+        background-color: transparent;
+
+        p {
+            color: rgba(255, 255, 255, 0.267);
+            font-weight: lighter;
+            font-size: 12px;
+            background-color: transparent;
+        }
+
+        span {
+            color: #2997ff;
+            background-color: transparent;
+        }
     }
 
 }

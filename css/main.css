@@ -904,12 +904,152 @@
   background-color: #111;
 }
 
-.footer-container .seperator {
+.footer-container .other-link-container {
   width: 70%;
-  height: 5px;
-  margin: 7%;
-  background-color: #111;
-  border-bottom: .5px solid  #a1a1a663;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer-container .other-link-container .column {
+  width: 180px;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.459);
+  font-size: 12.5px;
+  line-height: 2;
+  margin-right: 20px;
+}
+
+.footer-container .other-link-container .column .topic-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+}
+
+.footer-container .other-link-container .column .sub-list {
+  margin-top: 10px;
+}
+
+.footer-container .other-link-container .column ul {
+  list-style-type: none;
+  list-style: none;
+  background-color: transparent;
+}
+
+.footer-container .other-link-container .column ul li {
+  background-color: transparent;
+}
+
+.footer-container .more-shop-link-container {
+  margin-top: 20px;
+  width: 70%;
+  background-color: transparent;
+}
+
+.footer-container .more-shop-link-container p {
+  color: rgba(255, 255, 255, 0.267);
+  font-weight: lighter;
+  font-size: 12px;
+  background-color: transparent;
+}
+
+.footer-container .more-shop-link-container span {
+  color: #2997ff;
+  background-color: transparent;
+}
+
+.options-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: transparent;
+  color: white;
+}
+
+.options-container .option {
+  width: 220px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: transparent;
+  margin: 0 20px;
+}
+
+.options-container .option .option-img {
+  background-color: transparent;
+}
+
+.options-container .option .option-img img {
+  width: 56px;
+  height: 56px;
+  background-color: transparent;
+}
+
+.options-container .option .option-title {
+  margin-top: 5px;
+  background-color: transparent;
+  font-size: 19px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.options-container .option .option-desc {
+  margin-top: 10px;
+  text-align: center;
+  background-color: transparent;
+  font-size: .9em;
+  line-height: 1.4;
+}
+
+.options-container .option .option-link {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: transparent;
+}
+
+.options-container .option .option-link a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #2997ff;
+  font-size: .9em;
+}
+
+.options-container .option .option-link img {
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
 }
 
 * {
@@ -967,5 +1107,129 @@
 .active.burger:after {
   -webkit-transform: translateY(0) rotate(-45deg);
           transform: translateY(0) rotate(-45deg);
+}
+
+.breadcrumb-container {
+  width: 72%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  background-color: transparent;
+}
+
+.breadcrumb-container ul {
+  background-color: transparent;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.breadcrumb-container ul li {
+  background-color: transparent;
+  list-style: none;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 0 3px;
+}
+
+.breadcrumb-container ul li img {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+}
+
+.breadcrumb-container ul li .next-crumb {
+  width: 20px;
+  height: 20px;
+}
+
+.seperator {
+  width: 70%;
+  height: 5px;
+  margin: 7% 0% 3% 0%;
+  background-color: #111;
+  border-bottom: .5px solid  #a1a1a663;
+}
+
+.seperator-small {
+  width: 70%;
+  height: 5px;
+  margin: 5% 0% 1% 0%;
+  background-color: #111;
+  border-bottom: .5px solid  #a1a1a663;
+}
+
+.custom-sep {
+  margin: 1% 0%;
+}
+
+.copyrights-container {
+  width: 70%;
+  margin-bottom: 30px;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.copyrights-container .copyrights {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: transparent;
+}
+
+.copyrights-container .copyrights p {
+  background-color: transparent;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.267);
+}
+
+.copyrights-container .copyrights ul {
+  margin-left: 30px;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  list-style: none;
+  font-size: 12px;
+}
+
+.copyrights-container .copyrights ul li {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.507);
+  margin: 0 5px;
+}
+
+.copyrights-container .state {
+  background-color: transparent;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.507);
 }
 /*# sourceMappingURL=main.css.map */

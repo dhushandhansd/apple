@@ -1,0 +1,66 @@
+.options-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+
+    .option {
+        width: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: transparent;
+        margin: 0 20px;
+
+        .option-img {
+            background-color: transparent;
+
+            img {
+                width: 56px;
+                height: 56px;
+                background-color: transparent;
+            }
+        }
+
+        .option-title {
+            margin-top: 5px;
+            background-color: transparent;
+            font-size: 19px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .option-desc {
+            margin-top: 10px;
+            text-align: center;
+            background-color: transparent;
+            font-size: .9em;
+            line-height: 1.4;
+        }
+
+        .option-link {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            background-color: transparent;
+
+            a {
+                text-decoration: none;
+                background-color: transparent;
+                color: #2997ff;
+                font-size: .9em;
+            }
+
+            img {
+                width: 10px;
+                height: 10px;
+                background-color: transparent;
+            }
+        }
+    }
+
+}
