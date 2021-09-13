@@ -16,7 +16,7 @@
         top: 70px;
         opacity: 1;
         background-color: transparent;
-        animation-name: title-card-fade;
+        // animation-name: title-card-fade;
         animation-duration: 2s;
         animation-delay: 2s;
         animation-fill-mode: forwards;
@@ -25,7 +25,12 @@
         .hero-title {
             font-size: 20px;
             opacity: .9;
+            // opacity: 0;
             background-color: transparent;
+        }
+
+        .hero-active {
+            opacity: 1;
         }
     
         .hero-title-big {

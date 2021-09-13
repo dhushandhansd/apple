@@ -265,8 +265,6 @@
   top: 70px;
   opacity: 1;
   background-color: transparent;
-  -webkit-animation-name: title-card-fade;
-          animation-name: title-card-fade;
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
   -webkit-animation-delay: 2s;
@@ -281,6 +279,10 @@
   font-size: 20px;
   opacity: .9;
   background-color: transparent;
+}
+
+.iphone-hero-container .hero-titles .hero-active {
+  opacity: 1;
 }
 
 .iphone-hero-container .hero-titles .hero-title-big {
@@ -556,6 +558,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    display: none;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
@@ -582,6 +585,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    text-align: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
