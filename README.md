@@ -18,6 +18,7 @@
     - Call Link
     - Copyrights
  - Full Page Responsiveness
+ - OG Properties Updated
 
 ## UI Design
 ![Apple UI](https://github.com/dhushandhansd/apple/blob/master/apple-design.png)
